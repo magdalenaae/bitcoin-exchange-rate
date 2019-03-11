@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #F2E3AB;
+    background-image: url(../img/wp2054297.jpg);
+    background-size: cover;
+    }
+
+.container {
+    background-color: rgba(55,73,82,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin: 10% 25%;
+    border: 3px solid black;
+}
+
+.container h2 {
+    font-size: 2em;  
+}
+
+#interval-panel .live button {
+    margin: 15px 0;
+}
+
+#interval-panel .live {
+    text-align: center;
+}
+
+#interval-panel button {
+    height: 40px;
+    width: 140px;
+    border-style: none;
+    background-color: rgba(254,170,1,0.8);
+    color:#F2E3AB;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+#interval-panel button:hover {
+    background-color: rgba(242,84,1,0.8);
+}
+
+
+.red {
+    font-size: 2em;
+    color: #D62A1D;
+}
+
+.green {
+    font-size: 2em;
+    color: #3ACC27;
+}
