@@ -8,6 +8,10 @@
     .container {
         max-width: 768px;
     }
+    
+    body {
+        background-size: contain;
+    }
 }
 
 @media(max-width: 768px) {
@@ -18,6 +22,10 @@
     #interval-panel button {
         margin: 10px;
     }
+    
+    body {
+        background-size: contain;
+    }
 }
 
 @media(max-width: 480) {
@@ -25,7 +33,7 @@
         max-width: 95%;
     }
     
-    .container h2 {
-        font-size: 1em;
+    body {
+        background-size: contain;
     }
 }
