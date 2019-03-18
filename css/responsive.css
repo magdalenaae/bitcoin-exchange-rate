@@ -1,0 +1,31 @@
+@media(max-width: 1200px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 95%;
+    }
+    
+    #interval-panel button {
+        margin: 10px;
+    }
+}
+
+@media(max-width: 480) {
+    .container {
+        max-width: 95%;
+    }
+    
+    .container h2 {
+        font-size: 1em;
+    }
+}
